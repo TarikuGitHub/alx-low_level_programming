@@ -1,14 +1,19 @@
 #include "main.h"
 /**
- * _isipper - uppercase letters
- * @c:char to check
- *
- * Return: 0 or 1
+ * main - Entry point
+ * Description: 'prints _putchar to stdout'
+ * Return:always 0
  */
-int _isupper(int c)
+int main(void)
 {
-	if(c >= 'A' && c <= 'Z')
-		return (1);
-	else
-		return (0);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	return (0);
 }
+
