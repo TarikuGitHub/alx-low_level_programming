@@ -10,7 +10,6 @@ void print_square(int size)
 	{
 		_putchar('\n');
 	} else
-
 	{
 		int i, j;
 
@@ -20,7 +19,6 @@ void print_square(int size)
 			{
 				_putchar('#');
 			}
-
 			_putchar('\n');
 		}
 	}
